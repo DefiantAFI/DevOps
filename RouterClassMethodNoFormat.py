@@ -6,9 +6,8 @@ class Router:
 
     def getdesc(self):
         '''return a formatted description of the router'''
-        desc = f'Router Mode:                    {self.model}\n'\
-               f'Software Versio:                {self.swversion}\n'\
-               f'Router Management Address:      {self.ip_add}'
+        desc = {self.model}, {self.swversion}, {self.ip_add}
+        print('\n', type(desc))
         return desc
 
 
