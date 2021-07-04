@@ -8,6 +8,7 @@ readdata = open('C:/Users/poets/github/DevOps/readdata.txt')
 
 ''' Opens the file, appends the fourth line, and closes the file '''
 with open("readdata.txt", "a+") as data:
+    print(type(data))
     data.write('\nFourth line added by Python')
 
 ''' Print file without creating variable '''
