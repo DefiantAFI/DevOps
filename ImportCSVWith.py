@@ -6,7 +6,4 @@ with open("routerlist.csv") as data:
         device = row[0]
         location = row[2]
         ip = row[1]
-        print(f"{device} is in {location.rstrip()} and has IP {ip}.")
-
-
-print('\n', type(device), '\n', type(location))
+        print(f"{device} is in {location.rstrip()} and has IP {ip}")

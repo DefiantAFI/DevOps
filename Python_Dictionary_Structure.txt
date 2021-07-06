@@ -1,0 +1,32 @@
+newdict = {'Favorite Number': 3, 666: 'Yes AFI', 'Favorite Game': 'FF7', 'I Am': 'Cory', key: value}
+
+people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
+
+{"interface":
+            {"name": "GigabitEthernet1",
+            "description": "Router Uplink",
+            "enabled": true, "ipv4":
+                                   {"address":
+                                              [{"ip": "192.168.1.1","netmask": "255.255.255.0"}]}}}
+
+
+json_dict Python Dictionary Variable:
+
+Dictionary 1 = 1 Key: Pair:
+key = "interface"
+value = Dictionary 2
+
+Dictionary 2 = 4 Key: Pairs:
+keys =   "name",           description,   enabled, ipv4
+values = GigabitEthernet1, Router Uplink, true     Dictionary 3
+
+Dictionary 3 = 1 Key: Pair:
+key = "address"
+value = list
+
+List Content = Dictionary 4
+
+Dictionary 4 = 2 Key: Pairs:
+keys: ip,            Netmask
+Values: 192.168.1.1, 255.255.255.0
